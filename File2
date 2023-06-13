@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# Author ID: kkrathod
+# Student Name: Khushi Rathod
+# Student Number: 121499214
+
+
+import sys
+
+def helloWorld():
+    print("Hello World")
+
+# Call the helloWorld() function
+helloWorld()
+
+# Get the script name
+script_name = sys.argv[0]
+
+# Get the command line arguments (excluding the script name)
+arguments = sys.argv[1:]
+
+# Print the script name and arguments
+print("Script name:", script_name)
+print("Arguments:", arguments)
+
